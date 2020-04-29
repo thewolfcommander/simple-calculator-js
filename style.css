@@ -1,0 +1,47 @@
+:root {
+    --primary: #96c93d;
+    --secondary: #00b09b;
+    --alpha: #F3F9A7;
+    --orange: #fc4a1a;
+    --red: #f05053;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    border-bottom: 2px solid var(--red);
+    padding-bottom: 20px;
+}
+
+.title h1 {
+    font-size: 44px;
+    color: var(--red);
+    font-weight: 700;
+}
+
+.title p {
+    font-size: 22px;
+    color: var(--secondary);
+}
+
+.title p a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+
